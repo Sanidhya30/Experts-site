@@ -1,0 +1,667 @@
+/*---------------------------*/
+/*COLORS*/
+/*  #cf152d - red  (used for the heading)
+    #131516 - black  (used in about section background)
+    #2669f0 - blue
+
+/*---------------------------*/
+
+
+
+.slide-in-bottom {
+	-webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes slide-in-bottom{0%{-webkit-transform:translateY(1000px);transform:translateY(1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@keyframes slide-in-bottom{0%{-webkit-transform:translateY(1000px);transform:translateY(1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html
+{
+    background-color: #fff;
+    color: #555;
+    font-size: 20px;
+    font-family: 'Lato', 'Arial', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+
+.clearfix{zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+.row
+{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+a
+{
+    color: inherit;
+}
+
+
+
+header
+{
+    background-image: -webkit-gradient(linear , left top, left bottom , from(rgba(0, 0, 0, 0.7)) , to(rgba(0, 0, 0, 0.7))),url(https://spin-caps.com/wp-content/uploads/2018/09/car-service-key-features-A-1920x1080_tcm-3154-1323224.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)),url(https://spin-caps.com/wp-content/uploads/2018/09/car-service-key-features-A-1920x1080_tcm-3154-1323224.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+img
+{
+    /*z-index: 1000;*/
+}
+
+ion-icon
+{
+    /*z-index: -1000;*/
+}
+
+
+
+/*---------------------------*/
+/*SWIPER SECTION*/
+/*---------------------------*/
+
+
+.swiper-container {
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+
+
+
+
+
+
+
+/*---------------------------*/
+/*NAVIGATION*/
+/*---------------------------*/
+
+.navbar {
+    overflow: hidden;
+    background-image: url(https://img.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg?size=626&ext=jpg);
+    top: 0;
+    width: 100%;
+    /*z-index: 999999;*/
+}
+
+.navbar a {
+    float: right;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.navbar img
+{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 45px;
+    width: 200px;
+}
+
+/*---------------------------*/
+/*HEADING FOR DIFFERENT SECTION*/
+/*---------------------------*/
+
+.heading
+{
+    max-width: 400px;
+    margin: 5% auto 5% auto;
+    border-radius: 10px;
+}
+
+.heading ion-icon
+{
+    float: left;
+    font-size: 400%;
+}
+
+.heading p
+{
+    display: inline-block;
+    font-size: 220%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.heading p:hover
+{
+    border-bottom: 2px solid #cf152d;
+    padding-bottom: 1%;
+    text-decoration: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.heading ion-icon:hover
+{
+    color: #2669f0;
+}
+
+
+
+/*---------------------------*/
+/*SERVICES SECTION*/
+/*---------------------------*/
+
+.our-services
+{
+    background-image: url(https://www.free-largeimages.com/wp-content/uploads/2015/06/WHITEBACKGROUND-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 6%;
+}
+
+.service-feature-2
+{
+    float: right;
+}
+
+.service-feature-written
+{
+    background-image: url(Images/experts_service_2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    margin-bottom: 8%;
+    color: #e1e6e2;
+    
+}
+
+.service-feature-written-2
+{
+    background-image: url(Images/experts_service_example.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    margin-bottom: 8%;
+    margin-left: 0%;
+    color: #e1e6e2;
+}
+
+.service-feature-written p
+{
+    float: right;
+    text-align: right;
+}
+.service-feature
+{
+    margin-bottom: 8%;
+}
+
+
+
+
+/*---------------------------*/
+/*WORK SECTION*/
+/*---------------------------*/
+
+.our-work
+{
+    background-image: url(Images/work_background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 6%;
+}
+
+.work-showcase
+{
+    text-decoration: none;
+    width: 100%;
+}
+
+.work-showcase li
+{
+    display: block;
+    float: left;
+    width: 33.33%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.work-images
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    opacity: 0.7;
+}
+
+.work-images:hover
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+
+
+
+
+
+/*---------------------------*/
+/*ABOUT SECTION*/
+/*---------------------------*/
+
+.about-us
+{
+    background-image: url(https://i.pinimg.com/originals/87/a8/e4/87a8e459dc8e33fc6284611d6bded581.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 6%;
+}
+
+.about-heading
+{
+    background-color: #131516;
+    max-width: 300px;
+    margin: 5% auto 5% auto;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.about-heading:hover
+{
+    background-color: #fff;
+    max-width: 300px;
+    margin: 5% auto 5% auto;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    color: #555;
+}
+
+.about-heading ion-icon
+{
+    
+    float: left;
+    font-size: 400%;
+}
+
+.about-heading p
+{
+    display: inline-block;
+    margin-left: 3%;
+    font-size: 220%;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.about-heading p:hover
+{
+    border-bottom: 2px solid #cf152d;
+    padding-bottom: 1%;
+    text-decoration: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.about-heading ion-icon:hover
+{
+    color: #2669f0;
+}
+
+.about-section
+{
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #131516;
+    border-radius: 10px;
+    padding: 4%; 
+    color: #e1e6e2;
+}
+
+
+
+
+
+
+
+/*---------------------------*/
+/*TESTIMONIAL SECTION*/
+/*---------------------------*/
+
+.testimonials
+{
+    background-image: url(https://www.free-largeimages.com/wp-content/uploads/2015/06/WHITEBACKGROUND-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 6%;
+
+}
+
+.testimonial-main img
+{
+    float: left;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+.statement
+{
+    margin-top: 5%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+
+
+
+
+/*---------------------------*/
+/*CONTACT SECTION*/
+/*---------------------------*/
+
+.contact-us
+{
+    background-image: url(Images/work_background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 6%;
+}
+
+.contact-main
+{
+    max-width: 1100px;
+}
+
+.gmap
+{
+    float: left;
+    margin-left: 10%;
+}
+
+.gmap iframe
+{
+    border-radius: 15px;
+}
+
+.contact-info
+{
+    margin-left: 2%;
+    display: inline-block;
+}
+
+.contact-info p, .contact-info a
+{
+    display: inline-block;
+    font-size: 130%;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.contact-info ion-icon
+{
+    float: left;
+    font-size: 200%;  
+}
+
+.contact-info ion-icon:hover
+{
+    float: left;
+    font-size: 200%;  
+    color: #cf152d;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.contact-info p:hover,.contact-info a:hover
+{
+    border-bottom: 2px solid #cf152d;
+    padding-bottom: 1%;
+    text-decoration: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.mail:hover
+{
+    color: #2669f0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+/*.contact-address
+{
+    margin-left: 2%;
+}
+.contact-address ion-icon
+{
+    float: left;
+    font-size: 200%;  
+    margin-left: 2%;
+}
+.contact-address p
+{
+    font-size: 120%;
+    margin-left: 51%;
+}
+
+.contact-address ion-icon:hover
+{
+    font-size: 200%;  
+    color: #cf152d;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.contact-address p:hover
+{
+    border-bottom: 2px solid #cf152d;
+    padding-bottom: 1%;
+    text-decoration: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}*/
+
+
+
+
+
+/* ----------------------------------------------- */
+/* Animations */
+/* ----------------------------------------------- */
+
+.js--wp-1-1,
+.js--wp-1-2,
+.js--wp-1-3,
+.js--wp-1-4,
+.js--wp-2,
+.js--wp-3,
+.js--wp-4
+{
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-1-1.animate__slideInUp,
+.js--wp-1-2.animate__slideInUp,
+.js--wp-1-3.animate__slideInUp,
+.js--wp-1-4.animate__slideInUp,
+.js--wp-2.animate__zoomIn,
+.js--wp-3.animated,
+.js--wp-4.animate__shakeX{
+    opacity: 1;
+}
+
+
+.pulsate-fwd {
+	-webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
+	        animation: pulsate-fwd 0.5s ease-in-out infinite both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-7-10 19:13:44
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation pulsate-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+.shake-bl{-webkit-animation:shake-bl 1.3s cubic-bezier(.455,.03,.515,.955) infinite both;animation:shake-bl 1.3s cubic-bezier(.455,.03,.515,.955) infinite both}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-7-11 19:30:5
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+@-webkit-keyframes shake-bl{0%,100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:0 100%;transform-origin:0 100%}10%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}20%,40%,60%{-webkit-transform:rotate(-4deg);transform:rotate(-4deg)}30%,50%,70%{-webkit-transform:rotate(4deg);transform:rotate(4deg)}80%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}90%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}}@keyframes shake-bl{0%,100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:0 100%;transform-origin:0 100%}10%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}20%,40%,60%{-webkit-transform:rotate(-4deg);transform:rotate(-4deg)}30%,50%,70%{-webkit-transform:rotate(4deg);transform:rotate(4deg)}80%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}90%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}}
+
+.wobble-hor-top{-webkit-animation:wobble-hor-top 2s infinite both;animation:wobble-hor-top 2s infinite both}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-7-10 19:32:3
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+@-webkit-keyframes wobble-hor-top{0%,100%{-webkit-transform:translateX(0);transform:translateX(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%}15%{-webkit-transform:translateX(-30px) rotate(6deg);transform:translateX(-30px) rotate(6deg)}30%{-webkit-transform:translateX(15px) rotate(-6deg);transform:translateX(15px) rotate(-6deg)}45%{-webkit-transform:translateX(-15px) rotate(3.6deg);transform:translateX(-15px) rotate(3.6deg)}60%{-webkit-transform:translateX(9px) rotate(-2.4deg);transform:translateX(9px) rotate(-2.4deg)}75%{-webkit-transform:translateX(-6px) rotate(1.2deg);transform:translateX(-6px) rotate(1.2deg)}}@keyframes wobble-hor-top{0%,100%{-webkit-transform:translateX(0);transform:translateX(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%}15%{-webkit-transform:translateX(-30px) rotate(6deg);transform:translateX(-30px) rotate(6deg)}30%{-webkit-transform:translateX(15px) rotate(-6deg);transform:translateX(15px) rotate(-6deg)}45%{-webkit-transform:translateX(-15px) rotate(3.6deg);transform:translateX(-15px) rotate(3.6deg)}60%{-webkit-transform:translateX(9px) rotate(-2.4deg);transform:translateX(9px) rotate(-2.4deg)}75%{-webkit-transform:translateX(-6px) rotate(1.2deg);transform:translateX(-6px) rotate(1.2deg)}}
+
+
+.shake-left{-webkit-animation:shake-left 1.3s cubic-bezier(.455,.03,.515,.955) infinite both;animation:shake-left 1.3s cubic-bezier(.455,.03,.515,.955) infinite both}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-7-10 19:33:19
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+@-webkit-keyframes shake-left{0%,100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:0 50%;transform-origin:0 50%}10%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}20%,40%,60%{-webkit-transform:rotate(-4deg);transform:rotate(-4deg)}30%,50%,70%{-webkit-transform:rotate(4deg);transform:rotate(4deg)}80%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}90%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}}@keyframes shake-left{0%,100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:0 50%;transform-origin:0 50%}10%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}20%,40%,60%{-webkit-transform:rotate(-4deg);transform:rotate(-4deg)}30%,50%,70%{-webkit-transform:rotate(4deg);transform:rotate(4deg)}80%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}90%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}}
+
+
+.jello-horizontal{-webkit-animation:jello-horizontal 1.5s infinite both;animation:jello-horizontal 1.5s infinite both}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-7-10 19:36:39
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+@-webkit-keyframes jello-horizontal{0%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}@keyframes jello-horizontal{0%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
+
+
+.fade-in{-webkit-animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-7-11 19:56:43
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
