@@ -234,6 +234,11 @@ ion-icon
     color: #e1e6e2;
 }
 
+.service-feature-written-2 p 
+{
+    display: none;
+}
+
 .service-feature-written p
 {
     float: right;
