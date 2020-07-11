@@ -488,6 +488,12 @@
         background-image: url();
         height: auto;
         margin-bottom: 12%;
+        color: #555;
+    }
+    
+    .service-feature-written-2 p 
+    {
+        display: contents;
     }
     
     .service-feature-written p
@@ -608,6 +614,11 @@
         background-image: url();
         height: auto;
         margin-bottom: 12%;
+    }
+    
+    .service-feature-written-2 p 
+    {
+        display: contents;
     }
     
     .service-feature-written p
