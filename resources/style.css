@@ -160,7 +160,7 @@ ion-icon
 .heading
 {
     max-width: 400px;
-    margin: 5% auto 5% auto;
+    margin: 2% auto 7% auto;
     border-radius: 10px;
 }
 
@@ -205,6 +205,7 @@ ion-icon
     background-position: center;
     background-attachment: fixed;
     padding-bottom: 6%;
+    padding-top: 4%;
 }
 
 .service-feature-2
@@ -214,7 +215,7 @@ ion-icon
 
 .service-feature-written
 {
-    background-image: url(Images/experts_service_2.jpg);
+    background-image: url(Images/experts_service_example_2.jpg);
     background-size: cover;
     background-position: center;
     height: 35vh;
@@ -243,7 +244,9 @@ ion-icon
 {
     float: right;
     text-align: right;
+    display: none;
 }
+
 .service-feature
 {
     margin-bottom: 8%;
@@ -262,7 +265,8 @@ ion-icon
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding-bottom: 6%;
+    padding-bottom: 10%;
+    padding-top: 4%;
 }
 
 .work-showcase
@@ -318,14 +322,15 @@ ion-icon
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding-bottom: 6%;
+    padding-bottom: 10%;
+    padding-top: 4%;
 }
 
 .about-heading
 {
     background-color: #131516;
     max-width: 300px;
-    margin: 5% auto 5% auto;
+    margin: 3% auto 5% auto;
     border-radius: 10px;
     color: #fff;
 }
@@ -334,7 +339,6 @@ ion-icon
 {
     background-color: #fff;
     max-width: 300px;
-    margin: 5% auto 5% auto;
     border-radius: 10px;
     -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
@@ -398,6 +402,7 @@ ion-icon
     background-position: center;
     background-attachment: fixed;
     padding-bottom: 6%;
+    padding-top: 4%;
 
 }
 
@@ -434,6 +439,7 @@ ion-icon
     background-position: center;
     background-attachment: fixed;
     padding-bottom: 6%;
+    padding-top: 4%;
 }
 
 .contact-main

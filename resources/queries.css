@@ -499,6 +499,7 @@
     .service-feature-written p
     {
         text-align: left;
+        display: contents;
     }
     
     .service-feature img
@@ -624,6 +625,7 @@
     .service-feature-written p
     {
         text-align: left;
+        display: contents;
     }
     
     .service-feature img
